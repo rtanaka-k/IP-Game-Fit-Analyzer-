@@ -146,6 +146,159 @@ GENRE_DATABASE = {
         "monetization": ["アイテム課金", "イベント課金"],
         "dev_scale": "大規模",
         "risk_level": "高"
+    },
+    "ソウルライク": {
+        "description": "高難度の戦闘、リトライ前提の設計、重厚な世界観を特徴とするアクションRPG派生ジャンル",
+        "strengths": ["ダークで重厚な世界観を持つIP", "強大な敵・ボスが存在するIP", "死と再生のテーマがあるIP"],
+        "examples": ["DARK SOULS", "Elden Ring", "仁王", "Lies of P"],
+        "platform_fit": ["コンソール", "PC"],
+        "monetization": ["買い切り+DLC", "拡張パック"],
+        "dev_scale": "大規模",
+        "risk_level": "高"
+    },
+    "ヴァンサバ系 / 弾幕サバイバー": {
+        "description": "大量の敵を自動攻撃で薙ぎ払い、成長とビルド選択で生き延びるカジュアルアクション",
+        "strengths": ["大量のキャラクター・武器バリエーションがあるIP", "爽快感と親しみやすさの両立が可能なIP", "カジュアル層にもリーチしたいIP"],
+        "examples": ["Vampire Survivors", "HoloCure", "Brotato"],
+        "platform_fit": ["スマホ", "PC", "コンソール"],
+        "monetization": ["買い切り", "キャラクター追加DLC", "広告（スマホ）"],
+        "dev_scale": "小規模",
+        "risk_level": "低"
+    },
+    "ハクスラ / ハック&スラッシュ": {
+        "description": "大量の敵を倒しながらランダム生成の装備を収集・強化していくアクションRPG",
+        "strengths": ["装備・アイテムの多様性が映えるIP", "繰り返しプレイに耐えうる世界観のIP", "キャラクタービルドの自由度と相性が良いIP"],
+        "examples": ["ディアブロシリーズ", "Path of Exile", "トーチライト"],
+        "platform_fit": ["PC", "コンソール", "スマホ"],
+        "monetization": ["買い切り+DLC", "シーズンパス", "スキン課金"],
+        "dev_scale": "中〜大規模",
+        "risk_level": "中"
+    },
+    "メトロイドヴァニア": {
+        "description": "探索型2Dアクション。能力獲得による行動範囲の拡大と再探索が核となるジャンル",
+        "strengths": ["段階的に能力が増えるIP", "秘密や隠し要素が多い世界観のIP", "単独主人公が成長していくIP"],
+        "examples": ["Hollow Knight", "メトロイド ドレッド", "月下の夜想曲"],
+        "platform_fit": ["コンソール", "PC", "スマホ"],
+        "monetization": ["買い切り", "買い切り+DLC"],
+        "dev_scale": "小〜中規模",
+        "risk_level": "低〜中"
+    },
+    "ローグライク / ローグライト": {
+        "description": "ランダム生成のダンジョンとパーマデスを軸に、毎回異なる体験を提供するジャンル",
+        "strengths": ["多様なキャラクター・アイテムを持つIP", "リプレイ性と発見の楽しさが求められるIP", "不思議のダンジョン系との親和性があるIP"],
+        "examples": ["風来のシレン", "Hades", "Slay the Spire", "不思議のダンジョンシリーズ"],
+        "platform_fit": ["PC", "コンソール", "スマホ"],
+        "monetization": ["買い切り", "買い切り+DLC", "キャラクター追加課金"],
+        "dev_scale": "小〜中規模",
+        "risk_level": "低〜中"
+    },
+    "バトルロイヤル": {
+        "description": "多人数が同一フィールドで最後の1人/1チームを目指して戦うジャンル",
+        "strengths": ["競争・サバイバル要素があるIP", "多様なキャラクターやスキルが存在するIP", "PvPの緊張感が映えるIP"],
+        "examples": ["PUBG", "Fortnite", "Apex Legends"],
+        "platform_fit": ["PC", "コンソール", "スマホ"],
+        "monetization": ["基本無料+スキン課金", "バトルパス"],
+        "dev_scale": "大規模",
+        "risk_level": "高"
+    },
+    "MOBA": {
+        "description": "チーム対チームでレーンを攻防し、敵本拠地の破壊を目指す戦略的対戦ゲーム",
+        "strengths": ["多数の個性的キャラクターを持つIP", "チーム内の役割分担が明確なIP", "競技性との親和性が高いIP"],
+        "examples": ["League of Legends", "Dota 2", "Pokemon UNITE"],
+        "platform_fit": ["PC", "スマホ"],
+        "monetization": ["基本無料+スキン課金", "キャラクター課金", "バトルパス"],
+        "dev_scale": "大規模",
+        "risk_level": "高"
+    },
+    "カードゲーム / デッキ構築": {
+        "description": "カードを収集・構築し、戦略的な対戦やPvEを楽しむジャンル",
+        "strengths": ["キャラクター・技の種類が豊富なIP", "コレクション欲を刺激できるIP", "戦略性と相性が良いIP"],
+        "examples": ["遊戯王マスターデュエル", "Hearthstone", "Shadowverse", "Marvel Snap"],
+        "platform_fit": ["スマホ", "PC"],
+        "monetization": ["ガチャ（パック）", "バトルパス", "構築済みデッキ販売"],
+        "dev_scale": "中規模",
+        "risk_level": "中"
+    },
+    "シューター (TPS/FPS)": {
+        "description": "銃火器やエネルギー兵器を用いた射撃戦を主軸とするアクションジャンル",
+        "strengths": ["銃撃・射撃が世界観に組み込まれたIP", "ミリタリー・SF要素のあるIP", "協力・対戦プレイが映えるIP"],
+        "examples": ["スプラトゥーン", "CODシリーズ", "Valorant", "バイオハザード"],
+        "platform_fit": ["PC", "コンソール", "スマホ"],
+        "monetization": ["買い切り+DLC", "基本無料+スキン課金", "バトルパス"],
+        "dev_scale": "中〜大規模",
+        "risk_level": "中〜高"
+    },
+    "ホラー / サバイバルホラー": {
+        "description": "恐怖体験と生存をテーマにしたジャンル。限られたリソース管理が特徴",
+        "strengths": ["ホラー・怪奇要素があるIP", "緊張感・恐怖の演出が活きるIP", "閉鎖空間や未知の脅威が存在するIP"],
+        "examples": ["バイオハザード", "サイレントヒル", "零シリーズ"],
+        "platform_fit": ["コンソール", "PC"],
+        "monetization": ["買い切り", "買い切り+DLC"],
+        "dev_scale": "中〜大規模",
+        "risk_level": "中"
+    },
+    "タワーディフェンス": {
+        "description": "拠点防衛のためにユニットや施設を配置し、押し寄せる敵を撃退するジャンル",
+        "strengths": ["多数のユニット・キャラクターを持つIP", "防衛・守護のテーマがあるIP", "戦略的な配置が映えるIP"],
+        "examples": ["アークナイツ", "にゃんこ大戦争", "Kingdom Rush"],
+        "platform_fit": ["スマホ", "PC"],
+        "monetization": ["ガチャ", "ステージ課金", "買い切り"],
+        "dev_scale": "小〜中規模",
+        "risk_level": "低〜中"
+    },
+    "恋愛シミュレーション / 乙女ゲーム": {
+        "description": "キャラクターとの関係性構築を楽しむジャンル。女性向け・男性向けの両市場が存在",
+        "strengths": ["魅力的なキャラクターが多いIP", "キャラクター間の関係性が深いIP", "ファンの推し文化が強いIP"],
+        "examples": ["あんさんぶるスターズ", "ときめきメモリアル", "ヘタリア"],
+        "platform_fit": ["スマホ", "コンソール", "PC"],
+        "monetization": ["ガチャ（カード・衣装）", "シナリオ課金", "グッズ連動"],
+        "dev_scale": "小〜中規模",
+        "risk_level": "低〜中"
+    },
+    "MMORPG": {
+        "description": "大規模多人数参加型のオンラインRPG。持続的なコンテンツ更新と社会的要素が特徴",
+        "strengths": ["広大で深い世界観を持つIP", "多数の種族・職業・勢力があるIP", "長期運営と相性が良いIP"],
+        "examples": ["FF14", "原神（要素含む）", "ブルーアーカイブ"],
+        "platform_fit": ["PC", "コンソール", "スマホ"],
+        "monetization": ["月額課金", "ガチャ", "拡張パック", "スキン課金"],
+        "dev_scale": "大規模",
+        "risk_level": "高"
+    },
+    "放置系 / アイドルゲーム": {
+        "description": "オフライン中も進行する自動成長システムを核とした、低負荷でプレイできるジャンル",
+        "strengths": ["キャラクター収集が魅力のIP", "カジュアル層やライトユーザーが多いIP", "短時間プレイとの相性が良いIP"],
+        "examples": ["AFKアリーナ", "放置少女", "メメントモリ"],
+        "platform_fit": ["スマホ"],
+        "monetization": ["ガチャ", "VIP課金", "広告報酬"],
+        "dev_scale": "小〜中規模",
+        "risk_level": "低〜中"
+    },
+    "レース / スピード競技": {
+        "description": "車両やキャラクターを操作して速さを競うジャンル",
+        "strengths": ["乗り物・メカが登場するIP", "スピード感やレースの概念があるIP", "キャラクターのカスタマイズ要素との親和性"],
+        "examples": ["マリオカート", "頭文字D", "クレイジータクシー"],
+        "platform_fit": ["コンソール", "スマホ", "アーケード"],
+        "monetization": ["買い切り+DLC", "キャラクター・マシン課金", "バトルパス"],
+        "dev_scale": "中規模",
+        "risk_level": "中"
+    },
+    "スポーツ / 競技シミュレーション": {
+        "description": "実在または架空のスポーツをシミュレートするジャンル",
+        "strengths": ["スポーツを題材としたIP", "チーム・選手の多様性があるIP", "実在競技との親和性が高いIP"],
+        "examples": ["FIFAシリーズ", "パワプロ", "キャプテン翼"],
+        "platform_fit": ["コンソール", "スマホ", "PC"],
+        "monetization": ["買い切り", "選手ガチャ", "シーズン課金"],
+        "dev_scale": "中〜大規模",
+        "risk_level": "中"
+    },
+    "パーティ / ミニゲーム集": {
+        "description": "複数のミニゲームを通じて多人数で楽しむカジュアルなジャンル",
+        "strengths": ["幅広い年齢層に愛されるIP", "多数のキャラクターが活躍できるIP", "ファミリー・友人同士の利用が見込めるIP"],
+        "examples": ["マリオパーティ", "Fall Guys", "桃太郎電鉄"],
+        "platform_fit": ["コンソール", "スマホ"],
+        "monetization": ["買い切り", "スキン課金", "シーズンコンテンツ"],
+        "dev_scale": "中規模",
+        "risk_level": "低〜中"
     }
 }
 
@@ -455,4 +608,4 @@ if st.session_state.analysis_confirmed and st.session_state.ip_analysis:
 
 # --- Footer ---
 st.divider()
-st.caption("IP Game Fit Analyzer v0.1 | KRAFTON Japan - Planning")
+st.caption("IP Game Fit Analyzer v0.1 | KRAFTON Japan K.K. - Planning")
